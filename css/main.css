@@ -1223,7 +1223,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   height: 100vh;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   .item-slick1 {
     height: unset;
     background-size: cover;
