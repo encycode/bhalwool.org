@@ -277,6 +277,14 @@
         $('.js-modal1').removeClass('show-modal1');
     });
 
+    /**
+     * Initiate portfolio lightbox
+     */
+    const portfolioLightbox = GLightbox({
+        selector: '.portfolio-lightbox'
+    });
+
+
 
 
 })(jQuery);

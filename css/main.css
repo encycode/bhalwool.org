@@ -1,49 +1,11 @@
-/*------------------------------------------------------------------
-Project:  
-Version:  
-Last change:  
-Assigned to:  Le Xuan Bach
-Primary use:  Company
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[LAYOUT]
-
-* body
-  + Header / header
-  + Page Content / .page-content .name-page
-        + Section Layouts / section .name-section
-        ...
-  + Footer / footer
-
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[COLOR CODES]
-
-# Text Color      :  
-# Primary Color 01:  
-# Primary Color 02:   
-# Primary Color 03:  
-
-------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[TYPOGRAPHY]
-
-Body            : 16px/1.6 '', Arial, sans-serif;
-Title           : 18px/1.6 '', Arial, sans-serif;
-Paragrap        : 18px/1.6 '', Arial, sans-serif;
-Input, textarea : 14px/1.6 '', Arial, sans-serif;
--------------------------------------------------------------------*/
-
-
-
-/*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
-
 @font-face {
   font-family: Poppins-Regular;
   src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
 }
-
+video {
+  width: 100%;
+  height: auto;
+}
 @font-face {
   font-family: Poppins-Light;
   src: url('../fonts/Poppins/Poppins-Light.ttf'); 
@@ -3343,228 +3305,56 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 /*timeline/*/
+.timeline .timeline-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+}
+.timeline .timeline-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #6c7ae0;
+  position: relative;
+}
+.timeline .timeline-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #6c7ae0;
+  margin-bottom: 10px;
+}
+.timeline .timeline-item h5 {
+  font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.timeline .timeline-item ul {
+  padding-left: 20px;
+}
+.timeline .timeline-item ul li {
+  padding-bottom: 10px;
+}
+.timeline .timeline-item:last-child {
+  padding-bottom: 0;
+}
+.timeline .timeline-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #6c7ae0;
+}
 
 /* Timeline style */
 
-.timeline .row {
-  margin: 0px;
-}
-
-
-
-.timeline-header .row {
-  margin: 0px;
-}
-
-.timeline-header {
-  padding-top: 10px;
-  font-family: Graphik-Bold;
-  font-size: 53px;
-  color: #FFF;
-  background-color: #3F4580;
-}
-
-.wrapper {
-  margin: 50px auto;
-  padding: 0 20px;
-  position: relative;
-}
-
-.wrapper .center-line {
-  position: absolute;
-  height: 100%;
-  width: 4px;
-  background: #3F4580;
-  left: 0%;
-  top: 0px;
-  transform: translateX(-50%);
-}
-
-.wrapper .row {
-  display: flex;
-}
-
-.sec_class {
-  margin: 15px;
-}
-
-.wrapper .row-2 {
-  justify-content: flex-start;
-  margin: 20px;
-  align-items: center;
-}
-
-.wrapper .row-2 .col-lg-6 span {
-  font-family: "QuattrocentoSans-BoldItalic";
-  color: #333333;
-  font-size: 22px;
-}
-
-.wrapper .row-2 .col-lg-6 p {
-  font-family: "QuattrocentoSans";
-  color: #333333;
-  margin: 0px;
-  margin-left: 18px;
-  font-size: 15px;
-}
-
-.wrapper .row-2 .borderLeft {
-  border-left: 4px solid #4fc9f9;
-}
-
-.row .icon,
-.center-line .scroll-icon {
-  position: absolute;
-  background: #3F4580;
-  height: 25px;
-  width: 25px;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  content: " ";
-  font-size: 17px;
-}
-
-.fa-globe:before {
-  content: " ";
-}
-
-.center-line .scroll-icon {
-  bottom: 0px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.row-2 .icon {
-  margin-top: 10px;
-  left: -12px;
-}
-
-.wrapper1 {
-  margin: 40px auto;
-  position: relative;
-}
-
-.wrapper1 .row section {
-  margin: 10px 0px 20px 0px;
-}
-
-.mobileResponsive .row {
-  text-align: center;
-  font-size: 15px;
-}
-
-.mobileResponsive .timeline-title {
-  margin-top: 20px;
-}
-
-.mobileResponsive .timeline-title span {
-  margin-top: 20px;
-  font-size: 25px;
-  font-family: "QuattrocentoSans-BoldItalic";
-  font-weight: bold;
-  color: #333333;
-}
-
-.mobileResponsive .intro p {
-  font-family: "QuattrocentoSans";
-  color: #333333;
-  margin: 0px 10px;
-}
-
-@media only screen and (max-width: 318px) {
-  .timeline-header {
-    text-align: center;
-  }
-
-  .timeline-header .row {
-    margin: 0px;
-  }
-
-  .desktopResponsive {
-    display: none
-  }
-
-
-}
-
-@media only screen and (min-width: 320px) and (max-width: 360px) {
-  .timeline-header {
-    text-align: center;
-  }
-
-  .timeline-header .row {
-    margin: 0px;
-  }
-
-  .desktopResponsive {
-    display: none
-  }
-
-}
-
-@media only screen and (min-width: 361px) and (max-width: 499px) {
-  .timeline-header {
-    text-align: center;
-  }
-
-  .timeline-header .row {
-    margin: 0px;
-  }
-
-  .desktopResponsive {
-    display: none
-  }
-
-}
-
-@media only screen and (min-width: 500px) and (max-width: 767px) {
-  .timeline-header {
-    text-align: center;
-  }
-
-  .timeline-header .row {
-    margin: 0px;
-  }
-
-  .desktopResponsive {
-    display: none
-  }
-
-}
-
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-  .mobileResponsive {
-    display: none
-  }
-
-
-}
-
-@media only screen and (min-width: 1200px) {
-  .timeline-header {
-    margin-top: 40px;
-  }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1280px) {
-  .mobileResponsive {
-    display: none
-  }
-
-}
-
-@media only screen and (min-width: 1280px) and (max-width: 1600px) {
-  .mobileResponsive {
-    display: none
-  }
-
-}
-
-@media only screen and (min-width: 1600px) {
-  .mobileResponsive {
-    display: none
-  }
-}
-
-/* Timeline style */
