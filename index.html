@@ -45,7 +45,7 @@
 		<div class="container-menu-desktop">
 
 			<div class="wrap-menu-desktop">
-				<nav class="limiter-menu-desktop container">
+				<nav class="limiter-menu-desktop container justify-content-between">
 					
 					<!-- Logo desktop -->		
 					<a href="index.html" class="logo">
@@ -54,38 +54,40 @@
 
 					<!-- Menu desktop -->
 					<div class="menu-desktop">
-						<ul class="main-menu">
+						<form class="form-inline">
+							<ul class="main-menu">
 
-							<li class="active-menu">
-								<a href="index.html">Home</a>
-							</li>
+								<li class="active-menu">
+									<a href="index.html">Home</a>
+								</li>
 
-							<li>
-								<a href="product.html">Product</a>
-							</li>
+								<li>
+									<a href="product.html">Product</a>
+								</li>
 
-<!--							<li class="active-menu">-->
-<!--								<a href="index.html">Home</a>-->
-<!--								<ul class="sub-menu">-->
-<!--									<li><a href="index.html">Homepage 1</a></li>-->
-<!--									<li><a href="home-02.html">Homepage 2</a></li>-->
-<!--									<li><a href="home-03.html">Homepage 3</a></li>-->
-<!--								</ul>-->
-<!--							</li> -->
+								<!--							<li class="active-menu">-->
+								<!--								<a href="index.html">Home</a>-->
+								<!--								<ul class="sub-menu">-->
+								<!--									<li><a href="index.html">Homepage 1</a></li>-->
+								<!--									<li><a href="home-02.html">Homepage 2</a></li>-->
+								<!--									<li><a href="home-03.html">Homepage 3</a></li>-->
+								<!--								</ul>-->
+								<!--							</li> -->
 
-<!--							<li>-->
-<!--								<a href="blog.html">Blog</a>-->
-<!--							</li> -->
+								<!--							<li>-->
+								<!--								<a href="blog.html">Blog</a>-->
+								<!--							</li> -->
 
-							<li>
-								<a href="about.html">About</a>
-							</li>
+								<li>
+									<a href="about.html">About</a>
+								</li>
 
-							<li>
-								<a href="contact.html">Contact</a>
-							</li>
-						</ul>
-					</div>	
+								<li>
+									<a href="contact.html">Contact</a>
+								</li>
+							</ul>
+						</form>
+					</div>
 				</nav>
 			</div>	
 		</div>
@@ -243,7 +245,7 @@
 	</div>
 
 	<!-- Slider -->
-		<section class="section-slide">
+	<section class="section-slide">
 			<div class="wrap-slick1 ">
 				<div class="slick1">
 					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -310,6 +312,40 @@
 			</div>
 		</section>
 
+	<!-- ======= Facts Section ======= -->
+	<section id="facts" class="facts p-t-50">
+		<div class="container" data-aos="fade-up">
+
+			<div class="row">
+
+				<div class="col-lg-4 col-md-6">
+					<div class="count-box">
+						<i class="fa fa-smile-o"></i>
+						<span data-purecounter-start="0" data-purecounter-end="989" data-purecounter-duration="1" class="purecounter"></span>
+						<p>Happy Clients</p>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+					<div class="count-box">
+						<i class="fa fa-shopping-basket"></i>
+						<span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
+						<p>Product</p>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
+					<div class="count-box">
+						<i class="fa fa-users"></i>
+						<span data-purecounter-start="0" data-purecounter-end="78" data-purecounter-duration="1" class="purecounter"></span>
+						<p>Workers</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- End Facts Section -->
 
 	<!-- Product -->
 	<section class="sec-product bg0 p-t-50 p-b-50">
@@ -1163,6 +1199,7 @@
 
 <!--===============================================================================================-->	
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="js/purecounter.js"></script>
 <!--===============================================================================================-->
 	<script src="vendor/glightbox/js/glightbox.min.js"></script>
 <!--===============================================================================================-->
