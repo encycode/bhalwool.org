@@ -3410,24 +3410,24 @@ input.num-product::-webkit-inner-spin-button {
 .homebg {
   background-image:url('../images/bg_1.jpeg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   background-attachment: fixed;
 }
 .productbg {
   background-image:url('../images/bg_3.jpeg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   background-attachment: fixed;
 }
 .aboutbg {
   background-image:url('../images/bg_4.jpeg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   background-attachment: fixed;
 }
 .contactbg {
   background-image:url('../images/bg_2.jpeg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   background-attachment: fixed;
 }
