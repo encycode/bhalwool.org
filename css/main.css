@@ -103,7 +103,7 @@ video {
   /*border-radius: 50%;*/
   /*position: relative;*/
   /*animation: loader-scale 5s ease-out infinite;*/
-  animation:120s ease-out infinite;
+  animation:60s ease-out infinite;
   /*top: 50%;*/
   /*margin: -28px auto 0 auto;*/
 }
@@ -577,7 +577,7 @@ video {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    animation:120s ease-out infinite;
+    animation:60s ease-out infinite;
   }
 
   .hedp{
