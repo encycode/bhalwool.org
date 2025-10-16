@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Bhalwool | Home</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/linearicons-v1.0.0/icon-font.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/glightbox/css/glightbox.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/MagnificPopup/magnific-popup.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--===============================================================================================-->
+
+	<!-- Slick CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+	<style>
+		/* Scoped styles only for the slider so your global .card/.hov-img0 remain untouched */
+		.video-slider { margin: 0 -8px; } /* pull back spacing so cards align */
+		.video-slider .card {
+		box-sizing: border-box;
+		padding: 8px;               /* spacing between slides */
+		margin: 0;
+		border-radius: 5%;
+		border-style: none;
+		background: transparent;    /* keep original look */
+		box-shadow: none;
+		}
+
+		/* Unified aspect ratio wrapper for every slide (works with iframe & video) */
+		.slide-media {
+		position: relative;
+		padding-top: 56.25%; /* 16:9 aspect ratio; change if you want 1:1 or others */
+		overflow: hidden;
+		border-radius: 5%;
+		background: #000; /* fallback while poster loads */
+		}
+
+		.slide-media iframe,
+		.slide-media video {
+		position: absolute;
+		top: 0; left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;    /* fill the box and crop center */
+		display: block;
+		border: 0;
+		background: #000;
+		}
+
+		/* Ensure youtube iframes behave like the videos */
+		.slide-media iframe {
+		/* prevent extra scrollbars/spacing */
+		margin: 0;
+		padding: 0;
+		}
+
+		/* Slick default arrows/dots positioning tweak (optional) */
+		.slick-prev, .slick-next { z-index: 5; }
+		.slick-dots { bottom: -30px; }
+	</style>
+</head>
+
+<body class="animsition homebg">
+
+	<!-- Header -->
+	<header>
+		<!-- Header desktop -->
+		<div class="container-menu-desktop">
+
+			<div class="wrap-menu-desktop">
+				<nav class="limiter-menu-desktop container justify-content-between">
+
+					<!-- Logo desktop -->
+					<a href="index.html" class="logo">
+						<img src="images/logo.png" alt="IMG-LOGO">
+					</a>
+
+					<!-- Menu desktop -->
+					<div class="menu-desktop">
+						<form class="form-inline">
+							<ul class="main-menu">
+
+								<li class="active-menu">
+									<a href="index.html">Home</a>
+								</li>
+
+								<li>
+									<a href="product.html">Product</a>
+								</li>
+
+								<li>
+									<a href="glimpse.html">Glimpse</a>
+								</li>
+
+								<li>
+									<a href="about.html">About</a>
+									<ul class="sub-menu">
+										<li><a href="institute_profile.html">Institute Profile</a></li>
+										<li><a href="milestones.html">Milestones</a></li>
+									</ul>
+								</li>
+
+								<li>
+									<a href="contact.html">Contact</a>
+								</li>
+							</ul>
+						</form>
+					</div>
+
+				</nav>
+			</div>
+		</div>
+
+		<!-- Header Mobile -->
+		<div class="wrap-header-mobile">
+			<!-- Logo moblie -->
+			<div class="logo-mobile">
+				<a href="index.html"><img src="images/logo.png" alt="IMG-LOGO"></a>
+			</div>
+
+			<!-- Button show menu -->
+			<div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</div>
+		</div>
+
+
+		<!-- Menu Mobile -->
+		<div class="menu-mobile">
+
+			<ul class="main-menu-m">
+
+
+				<li class="active-menu">
+					<a href="index.html">Home</a>
+				</li>
+
+				<li>
+					<a href="product.html">Product</a>
+				</li>
+
+				<li>
+					<a href="glimpse.html">Glimpse</a>
+				</li>
+
+				<li>
+					<a href="about.html">About</a>
+					<ul class="sub-menu-m">
+						<li><a href="institute_profile.html">Institute Profile</a></li>
+						<li><a href="milestones.html">Milestones</a></li>
+					</ul>
+					<span class="arrow-main-menu-m">
+						<i class="fa fa-angle-right" aria-hidden="true"></i>
+					</span>
+				</li>
+
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+
+	</header>
+
+
+	<!-- Slider -->
+	<section class="section-slide">
+		<div class="wrap-slick1 ">
+			<div class="slick1">
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item item-slick1 active">
+							<img class="d-block w-100" src="images/slider/bg_main.jpg" alt="...">
+						</div>
+						<div class="carousel-item item-slick1">
+							<img class="d-block w-100" src="images/slider/Product_3.jpg" alt="...">
+						</div>
+						<div class="carousel-item item-slick1">
+							<img class="d-block w-100" src="images/slider/Production_Process.jpg" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h1>Production Process</h1>
+							</div>
+						</div>
+						<div class="carousel-item item-slick1">
+							<img class="d-block w-100" src="images/slider/Warping.jpg" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h1>Warping</h1>
+							</div>
+						</div>
+						<div class="carousel-item item-slick1">
+							<img class="d-block w-100" src="images/slider/Knitting_Department.jpg" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h1>Knitting Department</h1>
+							</div>
+						</div>
+						<div class="carousel-item item-slick1">
+							<img class="d-block w-100" src="images/slider/Post_Loom_Process.jpg" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h1>Post Loom Process</h1>
+							</div>
+						</div>
+						<div class="carousel-item item-slick1">
+							<img class="d-block w-100" src="images/slider/Stitching.jpg" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h1>Stitching</h1>
+							</div>
+						</div>
+						<div class="carousel-item item-slick1">
+							<img class="d-block w-100" src="images/slider/Cutting_Stitching.jpg" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h1>Cutting & Stitching</h1>
+							</div>
+						</div>
+						<div class="carousel-item item-slick1">
+							<img class="d-block w-100" src="images/slider/Weaving_Department.jpg" alt="...">
+							<div class="carousel-caption d-none d-md-block">
+								<h1>Weaving Department</h1>
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Product -->
+	<section class="p-t-50 p-b-50 ">
+		<div class="container">
+			<div class="row"
+				style="background: rgba(199, 157, 100, 0.6);border-radius: 30px;margin: 20px;padding: 15px;">
+				<div class="p-b-50" style="width:100%">
+					<h3 class="ltext-105 cl6 txt-center respon1">
+						The Organisation
+					</h3>
+				</div>
+				<div class="row">
+					<div class="col-md-7 col-lg-8">
+						<div class="p-t-7 p-r-85 p-r-15-lg p-r-0-md" style="text-align: center">
+							<p class="stext-113 cl6 p-b-26">
+								<b>Bhal Nalkantha Khadi Gramodyog Mandal</b> is a Khadi institution located in Ranpur,
+								Botad District of Gujarat, India. This Institute's Vision is to provide employment to
+								the local women by involving them into the work of spinning, handloom weaving, hand
+								knitting, Dyeing and stitching of woolen khadi products.
+							</p>
+
+							<p class="stext-113 cl6 p-b-26">
+								<b>Bhal Nalkantha Khadi Gramodyog Mandal</b> was established by Ambubhai Shah,
+								Harivallabh bhai Mehta, Dajibhai Dabhi, Chaturbhai Patel with the blessings of Jain Muni
+								Shri Santbalji in 1958.
+							</p>
+						</div>
+					</div>
+
+					<div class="col-11 col-md-5 col-lg-4 m-lr-auto">
+						<div class="how-bor1 ">
+							<div class="hov-img0">
+								<img src="images/1_vishava.jpg" alt="IMG">
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+				<div class="order-md-2 col-md-7 col-lg-8 mt-5">
+					<div class="p-t-7 p-l-85 p-l-15-lg p-l-0-md" style="text-align: center">
+
+						<p class="stext-113 cl6 p-b-26">
+							<b style="color: #771514">PALUBEN CHHAGANBHAI VAGH</b></br> a knitter from this institution
+							was awarded as</br>
+							<b style="color: #771514">"BEST MAHILA VIKAS"</b> </br> by the Chief Minister of Gujarat,
+							Narendra Modi. </br>On 31st March, 2012
+						</p>
+						<p class="stext-113 cl6 p-b-26">
+							Our Prime Minister has given the slogan that <b>Vocal for Local</b> and i That spirit is
+							well maintained here. By the Government
+							assistance, The work and sale of khadi is increasing through promotion and publicity, It is
+							helping the villagers to become self-reliant. If every person in India buys at least one
+							item of khadi So many people can stand on their own feet. For Gandhiji's Khadi Insistence is
+							just as welcome today as it was in the past. Stimulation of Swadeshi will be the foundation
+							of development of
+							the same village. That is a matter of course.
+						</p>
+
+
+					</div>
+				</div>
+
+				<div class="order-md-1 col-11 col-md-5 col-lg-4 m-lr-auto p-b-30 mt-5">
+					<div class="how-bor2">
+						<div class="hov-img0">
+							<img src="images/org_1.jpg" alt="IMG">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- highlights -->
+	<div class="container" style="background: rgba(199, 157, 100, 0.6); border-radius: 30px; padding: 15px;">
+		<section class="sec-product p-b-50 p-l-10 p-r-10">
+			<div class="container">
+				<div class="p-b-50 p-t-20">
+					<h3 class="ltext-105 cl6 txt-center respon1">Highlights</h3>
+				</div>
+
+				<!-- SLIDER (each direct child is a slide) -->
+				<div class="video-slider">
+					<div class="card mb-3">
+						<div class="hov-img0">
+							<div class="slide-media">
+								<video controls poster="video/thumbnails/bhalwool-1.jpg">
+									<source src="video/bhalwool-1.mp4" type="video/mp4">
+								</video>
+							</div>
+						</div>
+					</div>
+
+					<div class="card mb-3">
+						<div class="hov-img0">
+							<div class="slide-media">
+								<video controls poster="video/thumbnails/bhalwool-2.jpg">
+									<source src="video/bhalwool-2.mp4" type="video/mp4">
+								</video>
+							</div>
+						</div>
+					</div>
+
+					<div class="card mb-3">
+						<div class="hov-img0">
+							<div class="slide-media">
+								<iframe src="https://www.youtube.com/embed/y8d_GP8yy_A" allowfullscreen loading="lazy"
+									referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
+						</div>
+					</div>
+
+					<div class="card mb-3">
+						<div class="hov-img0">
+							<div class="slide-media">
+								<video controls poster="video/thumbnails/highlightsvideo.jpg">
+									<source src="video/highlightsvideo.mp4" type="video/mp4">
+								</video>
+							</div>
+						</div>
+					</div>
+
+					<div class="card mb-3">
+						<div class="hov-img0">
+							<div class="slide-media">
+								<iframe src="https://www.youtube.com/embed/zce-yJYwSKg" allowfullscreen loading="lazy"
+									referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- /SLIDER -->
+			</div>
+		</section>
+	</div>
+
+	<!-- ======= Facts Section ======= -->
+	<section id="facts" class="facts p-t-50 ">
+		<div class="container" data-aos="fade-up">
+
+			<div class="row">
+
+				<div class="col-lg-4 col-md-6">
+					<div class="count-box">
+						<i class="fa fa-smile-o"></i>
+						<span data-purecounter-start="0" data-purecounter-end="989" data-purecounter-duration="1"
+							class="purecounter"></span>
+						<p>Happy Clients</p>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+					<div class="count-box">
+						<i class="fa fa-shopping-basket"></i>
+						<span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1"
+							class="purecounter"></span>
+						<p>Product</p>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
+					<div class="count-box">
+						<i class="fa fa-users"></i>
+						<span data-purecounter-start="0" data-purecounter-end="78" data-purecounter-duration="1"
+							class="purecounter"></span>
+						<p>Workers</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- End Facts Section -->
+
+	<!-- Activity -->
+	<section class="p-t-50 p-b-50 ">
+		<div class="container">
+			<div class="row"
+				style="background: rgba(199, 157, 100, 0.6);border-radius: 30px;margin: 20px;padding: 15px;">
+				<div class="p-b-50" style="width:100%">
+					<h3 class="ltext-105 cl6 txt-center respon1">
+						ACTIVITY DEPARTMENT
+					</h3>
+				</div>
+
+				<!-- main -->
+				<div>
+					<div class="row" style="margin-bottom: 5%">
+						<div style="text-align: center">
+							<div class="col-md-6 col-lg-12" style="padding-top: 2%">
+								<div class=" p-r-15-lg p-r-0-md" style="text-align: center">
+									<p class="stext-113 cl6 p-b-26">
+										The Artisans of Khadi Gramodhyog Mandal are engaged in the following activities:
+									</p>
+								</div>
+							</div><br />
+							<div class="col-md-6 col-lg-12 m-lr-auto p-t-6-md">
+								<img src="images/timeline/1.png" alt="IMG" style="width: 75%;">
+							</div>
+						</div>
+					</div>
+	
+					<div class="row" style="margin-bottom: 5%;">
+						<div class="col-12 col-md-5 col-lg-4 m-lr-auto">
+							<div class="hov">
+								<div class="hov-img0" style="border: none;box-shadow: none;">
+									<img src="images/timeline/2.png" alt="IMG">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- spinning -->
+				<div>
+					<div class="hedp" style="width:100%;text-align: center;">
+						<img src="images/timeline/spinning-wheel (1).png" alt="IMG" class="imgwith">
+						<h5 class="ltext-105 cl2 txt-center respon1 hed">
+							Spinning
+						</h5>
+					</div>
+	
+					<div class="row">
+						<div class="col-md-7 col-lg-8  m-lr-auto" style="padding-top: 10%;">
+							<div class="p-t-7 p-r-85 p-r-15-lg p-r-0-md" style="text-align: center">
+								<p class="stext-113 cl6 p-b-26">
+									Raw wool is sent to the nearby villages where
+									spinning is done by the local women. They came to the
+									institution once a week to take raw material and submit
+								</p>
+							</div>
+						</div>
+	
+						<div class="col-8 col-md-5 col-lg-3 m-lr-auto">
+							<div class="how-bor1 ">
+								<div class="hov-img0" style="background: rgba(199, 157, 100, 0.7);">
+									<img src="images/timeline/spinning-wheel (1).png" alt="IMG">
+								</div>
+							</div>
+						</div>
+					</div>
+	
+					<div class="row">
+						<div class="order-md-2 col-md-7 col-lg-8 mt-5  m-lr-auto ">
+							<div class="p-t-7 p-l-85 p-l-15-lg p-l-0-md" style="text-align: center;padding-top: 12%;">
+								<p class="stext-113 cl6 p-b-26">
+									The conventional Charkha was. used when the organization started in 1961-62 but the introduction of
+									Amber Charkhai
+									resulted in upto four times production then the conventional Charkha. The fineness of yarns was achieved
+									with the
+									help of Amber Charkha thus improving the quality of the yarn as fine. as 20 to 25 yarn counts.
+								</p>
+							</div>
+						</div>
+	
+						<div class="order-md-1 col-8 col-md-5 col-lg-3 m-lr-auto p-b-30 mt-5" style="margin-bottom: 5%;">
+							<div class="how-bor2">
+								<div class="hov-img0" style="background: rgba(199, 157, 100, 0.7);">
+									<img src="images/timeline/3.png" alt="IMG">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<!-- weaving -->
+				<div>
+					<div class="hedp" style="width:100%;text-align: center;">
+						<img src="images/timeline/weaving.png" alt="IMG" class="imgwith">
+						<h5 class="ltext-105 cl2 txt-center respon1 hed p-t-10">
+							Weaving (woolen)
+						</h5>
+					</div>
+	
+					<div class="row">
+						<div class="col-md-7 col-lg-8  m-lr-auto" style="padding-top: 10%;">
+							<div class="p-t-7 p-r-85 p-r-15-lg p-r-0-md" style="text-align: center">
+								<p class="stext-113 cl6 p-b-26">
+									Weaving is done by
+									weavers in the campus only. A pit and farme
+									loom is used for weaving producing various
+								</p>
+							</div>
+						</div>
+	
+						<div class="col-8 col-md-5 col-lg-4 m-lr-auto">
+							<div class="how-bor1 ">
+								<div class="hov-img0">
+									<img src="images/timeline/4.png" alt="IMG">
+								</div>
+							</div>
+						</div>
+					</div>
+	
+	
+					<div class="col-md-12 col-lg-12" style="margin-top: 5%;">
+						<div class="p-t-7" style="text-align: center">
+							<p class="stext-113 cl6 p-b-26">
+								All the process from refilling of yarns in bobbins and reels to Weaving is done. 
+							</p>
+						</div>
+					</div>
+	
+					<div class="row">
+						<div class="order-md-2 col-md-7  m-lr-auto col-lg-8 ">
+							<div class="p-t-7 p-l-85 p-l-15-lg p-l-0-md" style="text-align: center;padding-top: 12%;">
+								<p class="stext-113 cl6 p-b-26">
+									Charkha is used to refilling the yarns.
+									The Beem(winder for wraping) is used for
+									wraping in the
+								</p>
+							</div>
+						</div>
+		
+						<div class="order-md-1 col-8 col-md-5 col-lg-4 m-lr-auto p-b-30 mt-5" style="margin-bottom: 5%;">
+							<div class="how-bor2">
+								<div class="hov-img0">
+									<img src="images/timeline/5.png" alt="IMG">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- knitting -->
+				<div>
+					<div class="hedp" style="width:100%;text-align: center;">
+						<img src="images/timeline/knitting.png" alt="IMG" class="imgwith">
+						<h5 class="ltext-105 cl2 txt-center respon1 hed" style="margin-top: 10px;">
+							Knitting (woolen)
+						</h5>
+					</div>
+	
+					<div class="row">
+						<div class="col-md-7 col-lg-8  m-lr-auto" style="padding-top: 10%;">
+							<div class="p-t-7 p-r-85 p-r-15-lg p-r-0-md" style="text-align: center">
+								<p class="stext-113 cl6 p-b-26">
+									Initially Knitting was started by the Organization but later it was it was switched to Marino. Marino wool is out
+									sourced as the supply could not meet the demand by the in-house production.
+								</p>
+							</div>
+							
+							<div class="col-11 col-md-5 col-lg-6 m-lr-auto p-b-30 mt-5">
+								<div class="how-bor2">
+									<div class="hov-img0">
+										<img src="images/timeline/6.png" alt="IMG">
+									</div>
+								</div>
+							</div>
+						</div>
+	
+						<div class="col-8 col-md-5 col-lg-4 m-lr-auto imgmrg">
+							<div class="how-bor1 ">
+								<div class="hov-img0">
+									<img src="images/timeline/7.png" alt="IMG">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Stitching -->
+				<div>
+					<div class="p-b-50 p-t-50" style="width:100%;text-align: center;">
+						<img src="images/timeline/stiching.png" alt="IMG" class="imgwith">
+						<h5 class="ltext-105 cl2 txt-center respon1 hed" style="margin-top: 10px;">
+							Stitching
+						</h5>
+					</div>
+
+					<div class="row col-12  m-lr-auto" style="text-align: center;">
+						<div class="col-md-4 col-lg-4 m-lr-auto p-t-6-md ">
+							<div class="how-bor1 ">
+								<div class="hov-img0">
+									<img src="images/timeline/8.png" alt="IMG">
+								</div>
+							</div>
+						</div>
+						<br>
+						<div class="col-md-4 col-lg-4 m-lr-auto p-t-6-md imgmrg">
+							<div class="how-bor1 ">
+								<div class="hov-img0">
+									<img src="images/timeline/9.png" alt="IMG">
+								</div>
+							</div>
+						</div>
+						<br>
+						<div class="col-md-4 col-lg-4 m-lr-auto p-t-6-md imgmrg">
+							<div class="how-bor1 ">
+								<div class="hov-img0">
+									<img src="images/timeline/10.png" alt="IMG">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-12 col-lg-12  m-lr-auto" style="margin-top: 5%;">
+						<div class="p-t-7" style="text-align: center">
+							<p class="stext-113 cl6 p-b-26">
+								A Stiching department is setup for stiching, cutting and ironing. A cutting expert supervises the department to
+								ensure best quality products.
+							</p>
+						</div>
+					</div>
+	
+					<div class="col-md-12 col-lg-12  m-lr-auto">
+						<div class="p-t-7" style="text-align: center">
+							<p class="stext-113 cl6 p-b-26">
+								Minimum required cutting is done by the cutting master and stiching is done for the Product development by the women
+								artisans
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- dyeing & washing -->
+				<div>
+					<div class="p-t-50" style="width:100%;text-align: center;">
+						<img src="images/timeline/dye.png" alt="IMG" class="imgwith">
+						<img src="images/timeline/washing-clothes.png" alt="IMG" class="imgwith">
+						<h5 class="ltext-105 cl2 txt-center respon1 hed">
+							Dyeing & Washing
+						</h5>
+					</div>
+
+					<div class="row">
+						<div class="order-md-2 col-md-7  m-lr-auto col-lg-8">
+							<div class="p-t-7 p-l-85 p-l-15-lg p-l-0-md" style="text-align: center;padding-top: 12%;">
+								<p class="stext-113 cl6 p-b-26">
+									The wool dyeing technique is mastered by the artisans
+									employed with the i organization. Dyeing is mainly done for knitted and ready products.
+								</p>
+							</div>
+						</div>
+		
+						<div class="order-md-1 col-8 col-md-5 col-lg-4 m-lr-auto p-b-30 mt-5">
+							<div class="how-bor2">
+								<div class="hov-img0">
+									<img src="images/timeline/11.png" alt="IMG">
+								</div>
+							</div>
+						</div>
+					</div>
+
+	
+	
+					<div class="col-md-12 col-lg-12" style="margin-top: 5%;">
+						<div class="p-t-7" style="text-align: center">
+							<p class="stext-113 cl6 p-b-26">
+								The organization have in-house Winch & other Auxiliary machines. Apart from this a highly qualified dyeing
+								master is also present to monitor the intricacies of
+								dyeing.
+							</p>
+						</div>
+					</div>
+	
+						
+					<div class="row" style="margin-bottom: 5%;">
+						<div class="col-md-7 col-lg-8  m-lr-auto" style="padding-top: 10%;">
+							<div class="p-t-7 p-r-85 p-r-15-lg p-r-0-md" style="text-align: center">
+								<p class="stext-113 cl6 p-b-26">
+									Washing is also done to remove excess color and dirt and also to ensure the color quality before send is to selling outlet.
+								</p>
+							</div>
+						</div>
+	
+						<div class="col-8 col-md-5 col-lg-4 m-lr-auto">
+							<div class="how-bor1 ">
+								<div class="hov-img0">
+									<img src="images/timeline/12.png" alt="IMG">
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="bg4 p-b-20">
+		<div class="container">
+			<div class="p-t-20">
+				<p class="stext-107 cl6 txt-center">
+					Copyright &copy;
+					<script>document.write(new Date().getFullYear());</script> All rights reserved
+				</p>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- Back to top -->
+	<div class="btn-back-to-top" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<i class="zmdi zmdi-chevron-up"></i>
+		</span>
+	</div>
+
+	<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="js/purecounter.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/glightbox/js/glightbox.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".js-select2").each(function () {
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+		})
+	</script>
+	<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/slick/slick.min.js"></script>
+	<script src="js/slick-custom.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/parallax100/parallax100.js"></script>
+	<script>
+		$('.parallax100').parallax100();
+	</script>
+	<!--===============================================================================================-->
+	<script src="vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+	<script>
+		$('.gallery-lb').each(function () { // the containers for all your galleries
+			$(this).magnificPopup({
+				delegate: 'a', // the selector for gallery item
+				type: 'image',
+				gallery: {
+					enabled: true
+				},
+				mainClass: 'mfp-fade'
+			});
+		});
+	</script>
+	<!--===============================================================================================-->
+	<script src="vendor/isotope/isotope.pkgd.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/sweetalert/sweetalert.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+	<script>
+		$('.js-pscroll').each(function () {
+			$(this).css('position', 'relative');
+			$(this).css('overflow', 'hidden');
+			var ps = new PerfectScrollbar(this, {
+				wheelSpeed: 1,
+				scrollingThreshold: 1000,
+				wheelPropagation: false,
+			});
+
+			$(window).on('resize', function () {
+				ps.update();
+			})
+		});
+	</script>
+	<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+	<!-- jQuery + Slick JS (order matters: jQuery then Slick) -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+	<script>
+		$(function () {
+			const $slider = $('.video-slider');
+
+			$slider.slick({
+			slidesToShow: 3,
+			slidesToScroll: 3,
+			infinite: true,
+			arrows: true,
+			dots: true,
+			centerMode: false,
+			variableWidth: false,
+			adaptiveHeight: false,
+			autoplay: true,           // enable auto-sliding
+			autoplaySpeed: 4000,      // 4 seconds per slide
+			pauseOnHover: true,       // pause if user hovers
+			pauseOnFocus: true,       // pause if focus (e.g. video controls)
+			responsive: [
+				{ breakpoint: 992, settings: { slidesToShow: 2, slidesToScroll: 2 } },
+				{ breakpoint: 576, settings: { slidesToShow: 1, slidesToScroll: 1 } }
+			]
+			});
+
+			// Pause any playing <video> when slide changes
+			$slider.on('beforeChange', function(event, slick, currentSlide, nextSlide){
+			// Pause all HTML5 videos
+			$slider.find('video').each(function(){
+				if (!this.paused) this.pause();
+			});
+
+			// Reload YouTube iframes to stop playback
+			$slider.find('iframe').each(function(){
+				const src = $(this).attr('src');
+			});
+			});
+
+			// Recalculate slide sizes after videos/iframes load
+			$slider.find('video').on('loadedmetadata', function(){
+			$slider.slick('setPosition');
+			});
+			$slider.find('iframe').on('load', function(){
+			$slider.slick('setPosition');
+			});
+		});
+	</script>
+</body>
+
+</html>
